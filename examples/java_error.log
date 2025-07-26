@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "str" is null
+	at com.example.Main.processString(Main.java:15)
+	at com.example.Main.main(Main.java:8) 

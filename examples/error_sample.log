@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "views.py", line 22, in home
+    return render(request, "home.html", context)
+NameError: name 'context' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/__init__.py", line 419, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/__init__.py", line 413, in execute_from_command_line
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/base.py", line 354, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/base.py", line 398, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/commands/runserver.py", line 60, in runserver
+    self.inner_run(*args, **options)
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/commands/runserver.py", line 67, in inner_run
+    handler = self.get_handler(*args, **options)
+  File "/usr/local/lib/python3.10/site-packages/django/core/management/commands/runserver.py", line 77, in get_handler
+    return get_internal_wsgi_application()
+  File "/usr/local/lib/python3.10/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    return WSGIHandler()
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/wsgi.py", line 127, in wsgi_app
+    response = self.get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "views.py", line 22, in home
+    return render(request, "home.html", context)
+NameError: name 'context' is not defined 

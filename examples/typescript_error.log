@@ -1,0 +1,6 @@
+src/components/Button.tsx:12:5 - error TS2322: Type 'string' is not assignable to type 'number'.
+
+const buttonCount: number = "5"; // Error here
+    ~~~~~~~~~~~~~
+
+Type 'string' is not assignable to type 'number'. 
