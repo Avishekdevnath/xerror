@@ -1,3 +1,8 @@
+# API Documentation
+
+**Author:** Avishek Devnath  
+**Email:** avishekdevnath@gmail.com
+
 # 🧪 Error Explainer API Documentation
 
 ## 📖 Overview

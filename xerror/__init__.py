@@ -6,9 +6,9 @@ JavaScript, TypeScript, C++, Java) and return AI-generated explanations and fix
 suggestions using Google's Gemini AI.
 """
 
-__version__ = "0.1.0"
-__author__ = "XError Team"
-__email__ = "contact@xerror.dev"
+__version__ = "1.0.0"
+__author__ = "Avishek Devnath"
+__email__ = "avishekdevnath@gmail.com"
 
 from .explainer import explain_error as ai_explain_error
 from .rule_based_explainer import rule_explainer

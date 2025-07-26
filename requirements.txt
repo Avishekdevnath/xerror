@@ -1,3 +1,4 @@
+# Author: Avishek Devnath <avishekdevnath@gmail.com>
 # Core CLI dependencies
 click>=8.1.0
 rich>=13.0.0

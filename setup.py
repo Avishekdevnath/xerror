@@ -13,9 +13,9 @@ def read_requirements():
 
 setup(
     name="xerror",
-    version="0.1.0",
-    author="XError Team",
-    author_email="contact@xerror.dev",
+    version="1.0.0",
+    author="Avishek Devnath",
+    author_email="avishekdevnath@gmail.com",
     description="A smart CLI tool to analyze error logs from multiple languages and return AI-generated explanations and fix suggestions",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
